@@ -1,0 +1,54 @@
+.whole-container {
+  border: solid;
+  height: 1000px;
+}
+
+.header {
+  background-color: lightgrey;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 10px;
+}
+
+.back {
+  margin-top: -85px;
+  margin-left: 10px;
+  color: yellow;
+}
+
+.options {
+  border: solid;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 70px;
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: grid;
+  grid-template-rows: repeat(3);
+  row-gap: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.product-details {
+  color: rd;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.product-image {
+  width: 10px;
+}
+
+img {
+  width: 40px;
+}
